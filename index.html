@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/20c5629a29.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="rental-app-container">
+      <!-- Navbar -->
+      <header class="sticky-top">
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-white fixed-top nav-container"
+        >
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img
+                src="https://res.cloudinary.com/dnaarhl5b/image/upload/v1668676331/logo_x35kjf.png"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto">
+                <a
+                  class="nav-link active"
+                  id="navItem1"
+                  href="#DropdownSection"
+                >
+                  Dropdown
+                  <span class="sr-only">(current)</span>
+                </a>
+                <a class="nav-link" href="#OtherTemplateSection" id="navItem2"
+                  >Other Template</a
+                >
+                <a class="nav-link" href="#SupportSection" id="navItem3"
+                  >Support</a
+                >
+                <ul class="social-icons">
+                  <li class="icons"><i class="fab fa-twitter"></i></li>
+                  <li class="icons"><i class="fab fa-facebook-f"></i></li>
+                  <li class="icons"><i class="fab fa-dribbble"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!-- Navbar-End -->
+
+      <!-- Content-Start   -->
+      <div class="content-container">
+        <!-- Sidebar-Navigation     -->
+        <div class="idocs-navigation bg-light">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="#idocs_account_creation"
+                >Account creation</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#idocs_list_items">List items</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#idocs_search_items">Search Items</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#idocs_map_search">Map Search</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#idocs_borrow_items">Borrow items</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#idocs_transactions">Transactions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#idocs_profile">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#idocs_disputes">Disputes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#idocs_settling_transactions"
+                >Settling transactions</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#idocs_support">Support</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Sidebar-Navigation-End -->
+
+        <div class="idocs-content">
+          <div class="container">
+            <section id="idocs_account_creation">
+              <h3>1. Account Creation</h3>
+
+              <h6><strong>What you need to create an account</strong></h6>
+              <ol>
+                <li>
+                  You will be asked to create an account when you try to list or
+                  borrow an item. You need an account to start transacting on
+                  the platform.
+                </li>
+                <li>
+                  To create an account, you need to provide your first name,
+                  last name, email id, phone number and address.
+                </li>
+              </ol>
+              <h6><strong>How to verify your account</strong></h6>
+              <ol>
+                <li>
+                  You will get an email with verification link. You need to
+                  click on the link to activate your account.
+                </li>
+              </ol>
+            </section>
+
+            <hr class="divider" />
+
+            <section id="idocs_list_items">
+              <h3>2. List items</h3>
+              <p class="lead">
+                Add items to the platform following a few simple steps:
+              </p>
+              <h6><strong>Details you need to list an item</strong></h6>
+              <ul>
+                <li>
+                  Before listing an item, please make sure that you have the
+                  following details about the item
+                </li>
+                <li>Item name</li>
+                <li>Description</li>
+                <li>Photos of the item in your mobile or use your camera</li>
+                <li>
+                  Address where the item is located (if this is different from
+                  the address in your profile)
+                </li>
+                <li>
+                  Your availability (use time slot to let borrowers know about
+                  your availability)
+                </li>
+                <li>The daily rent amount you want to charge for the item</li>
+              </ul>
+
+              <h6>
+                <strong>Allowed categories and items you can share</strong>
+              </h6>
+              <ul>
+                <li>Furniture</li>
+                <li>Vehicles</li>
+                <li>Wedding supplies</li>
+                <li>Outdoor equipment</li>
+                <li>Books</li>
+                <li>Sports goods</li>
+                <li>Repair tools</li>
+                <li>Small machinery</li>
+                <li>Home appliances</li>
+              </ul>
+
+              <h6><strong>Create the listing</strong></h6>
+              <p>
+                Click on the share button in the bottom navigation menu to start
+                listing an item. Please fill in item details described in the
+                previous section. Once done, you can see your item in ‘my items’
+                section of your profile. Search for your item from the search
+                field to make sure that your item is available on the platform.
+                If there is a problem with the listing or you cannot see your
+                item in your ‘my items’ or in search results, please contact the
+                administrator.
+              </p>
+              <p>
+                Fake listings or listings with inappropriate and insufficient
+                details will be removed immediately.
+              </p>
+
+              <h6><strong>Using middlemen</strong></h6>
+              <p>
+                If you have an expensive item to list and want us to personally
+                handle the transaction on your behalf, you can select this
+                option during listing the item. If there is no middle man
+                available in your area, you have to take care of your entire
+                transaction.
+              </p>
+              <p>
+                Middleman takes some commission to handle the item. If you don’t
+                want to use a middleman, you have to handle the transaction
+                yourself.
+              </p>
+
+              <h6><strong>TimeSlots</strong></h6>
+              <p>
+                We have 4 time slots during which a borrower may contact you at
+                the item location given by you. You have to select one time slot
+                and make yourself available till you handed the item over to the
+                borrower.
+              </p>
+
+              <h6><strong>Delivering the item</strong></h6>
+              <p>
+                We will display your item location on the map and give route
+                directions to the borrower. On mutually agreed timeslot and date
+                (you and borrower), the borrower will come to the item location
+                to collect the item. Both of you need to check and agree with
+                the item condition, payment terms and exchange the item.
+              </p>
+
+              <h6><strong>Get paid</strong></h6>
+              <p>
+                Borrower pays the money (the rental amount and deposit if any)
+                to the platform which we will keep with us till the transaction
+                is completed. Once the item is returned and all disputes (if
+                any) are resolved, we will pay you after deducting our platform
+                fee.
+              </p>
+
+              <h6><strong>Connect with borrower</strong></h6>
+              <p>
+                Borrower will contact you for collecting the item using the map
+                directions given by us. It is advised not to make any direct
+                deals with the borrower. You can communicate with your borrower
+                regarding item condition or negotiate rate or extending
+                borrowing period, but always deal through the platform only.
+                Else we will not be responsible for any damage to your item.
+              </p>
+
+              <h6><strong>Managing the item availability</strong></h6>
+              <p>
+                You have to make all deals through the platform and tell us
+                whenever the item is delivered and returned, so that we can keep
+                track of item’s availability show the item to our users when it
+                is available and allow them to make bookings.
+              </p>
+
+              <h6><strong>Condition of the item</strong></h6>
+              <p>
+                You and the borrower need to confirm that the condition of the
+                item is satisfactory for both of parties, during the delivery
+                and return of the item. Platform is not responsible for item’s
+                damage or malfunction after the transaction. You and borrower
+                need to resolve such issues between yourselves. However, a
+                borrower or lender can raise a dispute with us with sufficient
+                evidence.
+              </p>
+            </section>
+
+            <hr class="divider" />
+
+            <section id="idocs_search_items">
+              <h3>3. Search Items</h3>
+              <p>
+                Search for items in your neighborhood using zip code, item name
+                or category. Using the search box at the top of the screen, you
+                can search for items within your neighborhood.
+              </p>
+            </section>
+
+            <hr class="divider" />
+
+            <section id="idocs_map_search">
+              <h3>4. Map Search</h3>
+              <p>
+                Using the map search, you can find items within your area
+                displayed in a map
+              </p>
+            </section>
+
+            <hr class="divider" />
+
+            <section id="idocs_borrow_items">
+              <h3>5. Borrow Items</h3>
+              <ul>
+                <li>
+                  <p>
+                    <strong>Before borrowing an item:</strong>please check all
+                    details of an item and make sure that it fulfils your
+                    requirement. You can also look for ratings and reviews of
+                    the item.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>Borrowing item:</strong>borrowing an item is simple,
+                    just enter dates for which you need the item, select the
+                    time slot during which you want to meet the owner to collect
+                    the item and confirm your booking.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>Paying for the item:</strong>If it’s a paid item,
+                    you can pay the amount in the app itself. If it’s a free
+                    item, you will get instructions on how to contact the owner.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>Getting delivery of the item:</strong>Once you paid
+                    for the item, a map will show you the route to item’s
+                    location. The map will open just before your chosen time
+                    slot and will guide you to item’s location in real time.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>Understanding TimeSlots:</strong>A time slot is a
+                    time period during which the owner will be available to
+                    handover the item to the renter. The app has 4 time slots, 9
+                    am -12 pm, 12 pm – 3 pm, 3pm – 6 pm, 6pm – 9 pm. You
+                    (borrower) will see only those time slots during which the
+                    owner is available. You have to select one time slot and
+                    meet the owner to collect the item you borrowed.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>Connect with owner:</strong>A map will guide you to
+                    the items location. Your device will be paired with the
+                    owner’s device and then you can collect the item. Both you
+                    (borrower) and owner needs to confirm that item is
+                    exchanged.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>Extending the borrowing period:</strong>You can
+                    extend the renting period from within the app, but you have
+                    to pay the full rental amount for the extended period in
+                    advance.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>Returning the item:</strong> You need to meet the
+                    owner and return the item before your renting period ends.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>Condition of the item:</strong>The owner has to
+                    confirm that he received the item in good condition. Its
+                    your responsibility to use the item carefully and return it
+                    to the owner in its original condition.
+                  </p>
+                </li>
+              </ul>
+            </section>
+
+            <hr class="divider" />
+
+            <section id="idocs_transactions">
+              <h3>6. Transactions</h3>
+              <p class="lead">
+                keep track of your items and money transactions:
+              </p>
+              <ul>
+                <li>
+                  <p>
+                    <strong>Viewing transactions:</strong>In your profile, you
+                    can see all items that you borrowed or lent. You can see the
+                    status of each item and details of transaction for each
+                    item.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>Understanding transactions:</strong>The item
+                    displays different status message during different stages of
+                    transaction.
+                  </p>
+                </li>
+                <p>
+                  Reserved: when an item is reserved for a particular day by the
+                  borrower
+                </p>
+                <p>
+                  Delivered: Item delivered to the renter by the owner or an
+                  agent
+                </p>
+                <p>Returned: Item is returned to the owner by the borrower</p>
+                <p>
+                  Available: Item is available for a particular date if its not
+                  booked by anyone
+                </p>
+                <li>
+                  <p>
+                    <strong>Raising a dispute:</strong> Either the owner or the
+                    renter can raise a dispute if there is a disagreement about
+                    the transaction. Please read more about disputes in the
+                    following section.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>Settling the transaction:</strong> After the
+                    transaction is successfully completed to the satisfaction of
+                    all parties involved (owner, renter, agent, platform), then
+                    the final settlement of the amount is initiated.
+                  </p>
+                </li>
+              </ul>
+            </section>
+
+            <hr class="divider" />
+
+            <section id="idocs_profile">
+              <h3>7. Profile</h3>
+              <p class="lead">Manage your profile:</p>
+              <p>
+                Users can go to their profile section from the left menu or by
+                clicking on the profile icon in the bottom navigation bar. It is
+                important to keep your profile updated with all required
+                information to enable smooth transactions, refunds and
+                settlements.
+              </p>
+              <p>
+                YOUR INFORMATION IS ENCRYPTED AND PROTECTED IN THE BEST POSSIBLE
+                METHODS. PLEASE READ OUR PRIVACY POLICY FOR MORE DETAILS.
+              </p>
+            </section>
+
+            <hr class="divider" />
+
+            <section id="idocs_disputes">
+              <h3>8. Disputes</h3>
+              <p class="lead">dispute resolution mechanism:</p>
+              <ul>
+                <li>Dispute scenarios:</li>
+                <p>
+                  <strong
+                    >The following are the most common dispute scenarios</strong
+                  >
+                </p>
+                <ol>
+                  <li>
+                    Item doesn’t match the description given in the app. Owner
+                    failed to give accurate information about the item.
+                  </li>
+                  <li>
+                    Item didn’t work as expected after it is delivered to the
+                    renter
+                  </li>
+                  <li>Item is damaged during the borrowing period.</li>
+                  <li>Item is returned in a damaged condition to the owner.</li>
+                  <li>
+                    Renter didn’t return the item at the end of borrowing
+                    period.
+                  </li>
+                  <li>Renter is not traceable after borrowing the item.</li>
+                </ol>
+                <li>Lender responsibility:</li>
+                <ol class="list-items">
+                  <li>
+                    (a) Owner has to give accurate information about the item
+                    and certify that it is in working condition.
+                  </li>
+                  <li>
+                    (b) Owner has to make sure that item is returned in original
+                    condition in which it is delivered
+                  </li>
+                  <li>
+                    (c) Owner has to be contact with the renter and remind about
+                    item’s return date.
+                  </li>
+                  <li>
+                    (d) Owner is responsible to collect his item back from
+                    renter after the rental period is over.
+                  </li>
+                </ol>
+                <li>Borrower responsibility:</li>
+                <ol class="list-items">
+                  <li>
+                    (a) Renter has to make sure that he received the item in
+                    good working condition and return it in the same condition.
+                  </li>
+                  <li>
+                    (b) Renter is responsible for any damage done to the item or
+                    the damage done by the item.
+                  </li>
+                  <li>
+                    (c) If the renter doesn’t know how to operate the item, he
+                    can take the help from the owner or a professional, instead
+                    of trying it himself.
+                  </li>
+                  <li>
+                    (d) Renter needs to respond to the owner whenever the owner
+                    contacts him.
+                  </li>
+                  <li>
+                    (e) Renter needs to comply with all platform requirements
+                    before transacting on the platform.
+                  </li>
+                </ol>
+                <li>Platform responsibility:</li>
+                <ol class="list-items">
+                  <li>
+                    (a) Platform (the mobile app) is not responsible for any
+                    damage done to the item or damage done by the item. The
+                    owner and renter need to resolve the issue between them.
+                  </li>
+                  <li>
+                    (b) Platform only mediates between the borrower and lender,
+                    in case of a dispute, trying to resolve the issue amicably.
+                    The platform doesn’t have any legal authority to settle
+                    disputes between borrower and lender.
+                  </li>
+                  <li>
+                    (c) The platform may withhold the money till disputes are
+                    resolved.
+                  </li>
+                  <li>
+                    (d) The platform is not responsible for any misinformation
+                    given by any user regarding self or their listed items.
+                  </li>
+                  <li>
+                    (e) The owner and renter need to satisfy themselves with the
+                    condition of the item both during the delivery and return.
+                  </li>
+                  <li>
+                    (f) Platform is not responsible if item is stolen or lost
+                    during any phase of the transaction. Its owner’s
+                    responsibility to make sure that the renter is trustworthy.
+                  </li>
+                </ol>
+                <li>Report a problem:</li>
+                <p>
+                  You can report any problem with anything related to the
+                  platform or item or transaction using the contact form in the
+                  mobile app. In case of transaction, please mention the item
+                  name or transaction id.
+                </p>
+
+                <li>Raise a dispute:</li>
+                <p>
+                  You can raise a dispute by calling us on: or emailing us at:
+                  or filling out form in the mobile app. Either the owner or
+                  renter can raise a dispute within 7 days from the last
+                  transaction between them. Any Dispute rose after 7 days after
+                  the last transaction will not be entertained.
+                </p>
+
+                <li>Settling a dispute:</li>
+                <p>
+                  The admin will initiate a meeting to settle the issue
+                  amicably.
+                </p>
+              </ul>
+            </section>
+
+            <hr class="divider" />
+
+            <section id="idocs_settling_transactions">
+              <h3>9. Settling transactions</h3>
+              <p class="lead">Final settlement of all your transactions:</p>
+              <ul>
+                <li>Calculation of amounts:</li>
+                <p>
+                  At the end of a transaction, amounts owed to the owner and
+                  refunds (if any) owed to the renter are calculated after 7
+                  days the transaction is completed without any disputes. Both
+                  the owner and borrower have 7 days to raise a dispute.
+                </p>
+                <li>Settling final amounts:</li>
+                <p>
+                  If there are no disputes, amounts will be released wherever
+                  due to respective parties after 14 days since the item is
+                  returned or dispute is settled, whichever is later.
+                </p>
+              </ul>
+            </section>
+
+            <hr class="divider" />
+
+            <section id="idocs_support">
+              <h3>10. Support</h3>
+              <p class="lead">get help from platform administrators:</p>
+              <ul>
+                <li>Through email</li>
+                <li>Through whatsapp group</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
